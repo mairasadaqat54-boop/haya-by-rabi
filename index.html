@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prata&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background-color: #e6dad1;
+      color: #333;
+    }
+    h1, h2, h3 {
+      font-family: 'Prata', serif;
+      color: #9d5a4d;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero {
+      background-color: #e6dad1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .hero img {
+      max-width: 400px;
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+    .hero h1 {
+      font-size: 36.5px;
+    }
+    .hero p {
+      font-size: 16.6px;
+    }
+    .btn {
+      background-color: #9d5a4d;
+      color: #e6dad1;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .dark {
+      background-color: #9d5a4d;
+      color: #e6dad1;
+    }
+    .features, .ingredients, .results {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      color: #9d5a4d;
+    }
+    .card p {
+      font-size: 16px;
+      color: #555;
+    }
+    footer {
+      background-color: #9d5a4d;
+      color: #e6dad1;
+      padding: 30px 20px;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Finally, Calm & Radiant Skin Without Harsh Chemicals</h1>
+    <p>Gentle formulas designed for your natural glow.</p>
+    <a href="#" class="btn">Shop Now</a>
+    <img src="https://source.unsplash.com/400x400/?skincare,beauty" alt="Hero Image">
+  </section>
+
+  <!-- Problem Section -->
+  <section class="dark">
+    <h2>Tired of Irritated Skin?</h2>
+    <p>Most skincare products contain harsh chemicals that damage your skin barrier. Our formulas are made with natural botanicals and dermatologically tested for sensitive skin.</p>
+    <img src="https://source.unsplash.com/600x400/?woman,face" alt="Problem Image" style="max-width:400px; border-radius:20px; margin-top:20px;">
+  </section>
+
+  <!-- Features Section -->
+  <section>
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>100% Organic</h3>
+        <p>Only natural plant-based ingredients.</p>
+      </div>
+      <div class="card">
+        <h3>Gentle on Skin</h3>
+        <p>Formulated for even the most sensitive skin types.</p>
+      </div>
+      <div class="card">
+        <h3>Clinically Proven</h3>
+        <p>Backed by research and dermatologist-approved.</p>
+      </div>
+    </div>
+    <img src="https://source.unsplash.com/500x400/?spa,skincare" alt="Features Image" style="max-width:500px; margin-top:20px; border-radius:20px;">
+  </section>
+
+  <!-- Ingredients Section -->
+  <section class="dark">
+    <h2>Powerful Ingredients</h2>
+    <div class="ingredients">
+      <div class="card">
+        <h3>Botanical Extracts</h3>
+        <p>Nourish and protect your skin naturally.</p>
+      </div>
+      <div class="card">
+        <h3>Glacial Water</h3>
+        <p>Hydration at its purest source.</p>
+      </div>
+      <div class="card">
+        <h3>Essential Vitamins</h3>
+        <p>Rejuvenates skin for a youthful glow.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section>
+    <h2>See the Results</h2>
+    <div class="results">
+      <div class="card">
+        <h3>Reduces Fine Lines</h3>
+        <p>Visible difference in just weeks.</p>
+      </div>
+      <div class="card">
+        <h3>Improves Complexion</h3>
+        <p>Brighter and more even skin tone.</p>
+      </div>
+      <div class="card">
+        <h3>Lasting Glow</h3>
+        <p>Radiance that stays with you all day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us on Instagram | Facebook | Twitter</p>
+    <p>Contact: info@skincarebrand.com</p>
+    <p>© 2025 Skincare Brand</p>
+  </footer>
+
+</body>
+</html>
